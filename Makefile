@@ -7,7 +7,6 @@ css:
 server:
 	browser-sync start --server --files='index.html,bundle/app.css,js/app.js'
 
-
 .PHONY: clean
 clean:
 	rm -r bundle
